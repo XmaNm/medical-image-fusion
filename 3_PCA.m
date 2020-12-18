@@ -1,7 +1,7 @@
 % 基于PCA变换的图像融合方法
 
-up = imread('CT001.jpg');
-low = imread('PET001.jpg');
+up = imread('CT.jpg');
+low = imread('PET.jpg');
 subplot(2,2,1);imshow(up);title('高分辨率图像');
 subplot(2,2,2);imshow(low);title('低分辨率图像');
 
