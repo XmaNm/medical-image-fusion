@@ -1,14 +1,6 @@
 '''
 	Create and Collapse Steerable Pyramid.
 
-	This implementaion is basically based on J. Portilla and E. Simoncelli [2000] .
-	But only real part is used. (T. Briand et al. [2014] )
-
-	"Parametric Texture Model Based on Joint Statistics of Complex Wavelet Coefficient"
-	J. Portilla and E. Simoncelli [2000]
-	http://www.cns.nyu.edu/pub/lcv/portilla99.pdf
-
-
 	Usage:
 		python create_collapse_pyramid.py -i saucer-mono256.png -x 256 -y 256
 			-i : input image path
@@ -20,25 +12,6 @@
 		Attn.
 		gray scale image (1 channel) only.
 		orientation : 4, 6, 8, 10, 12, 15, 18, 20, 30, 60
-
-
-	About Steerable pyramids see also,
-	"The Heeger-Bergen Pyramid-Based Texture Synthesis Algorithm"
-	T. Briand et al. [2014] IPOL
-	http://www.ipol.im/pub/art/2014/79/
-
-	"The Steerable Pyramid:A Flexible Architecture For Multi-Scale Derivative Computation"
-	E.Simoncelli and W.Freeman [1995]
-	http://www.cns.nyu.edu/pub/eero/simoncelli95b.pdf
-
-	"A Filter Design Technique For Steerable Pyramid Image Transform"
-	A.Karasaridis and E.Simoncelli [1996]
-	https://pdfs.semanticscholar.org/625e/ec8262570a3d62a2f252c151ef14e2be9b5d.pdf
-
-	"Design and Use of Steerable Filters"
-	W.Freeman and E.Adelson [1991]
-	http://people.csail.mit.edu/billf/publications/Design_and_Use_of_Steerable_Filters.pdf
-
 
 '''
 
@@ -68,9 +41,9 @@ if __name__ == "__main__":
                     help='Depth of Pyramid. Integer')
 	parser.add_argument('--orientation', '-k', default=4, type=int,
                     help='Orientation. Integer')
-	# parser.add_argument('--input_file', '-i', default='saucer-mono256.png',
-    #                 help='Iuput File Name')
-	parser.add_argument('--input_file', '-i', default='CT001.jpg',
+	parser.add_argument('--input_file', '-i', default='CT.jpg',
+	                help='Iuput File Name')
+	parser.add_argument('--input_file', '-i', default='PET.jpg',
 	                help='Iuput File Name')
 	parser.add_argument('--image_name', '-j', default='img', 
                     help='Name of the input image')
