@@ -10,7 +10,7 @@ numpy,
 matplotlib,
 tensorflow,
 keras,
-matlab(option)``
+matlab(optional)``
 
 ## Implementation
 
