@@ -12,12 +12,6 @@ tensorflow,
 keras,
 matlab(optional)``
 
-## Implementation
-
-1. Run ``create_collapse_pyramid.py`` to decompose the image.
-2. Run ``Siamese Autoencoder.py`` to fuse high-pass image components.
-3. Run ``PCA.m`` to fuse low-pass image components.
-
 
 ## Demo
 ......
