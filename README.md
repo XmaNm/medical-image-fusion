@@ -13,5 +13,9 @@ keras,
 matlab(optional)``
 
 
+## Network Aritecture
+![fig1](https://user-images.githubusercontent.com/30771950/127951735-b2c44319-4b0e-4863-a637-03b17f0bcef6.jpg)
+
 ## Demo
-......
+
+.....
